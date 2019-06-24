@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+#backgroundwa{
+	background-image: url('../assets/img/unimev.jpg');
+}
+	#porta{
+		display: none;
+	}
+}
+@media only screen and (min-width: 600px) {
+
+#backgroundwa{
+	background-image: url('../assets/img/unid.jpg');
+}
+#porta{
+	
+	padding: 10px;
+	color: white;
+background-color: black;
+border-radius: 5px;
+}	
+}
+

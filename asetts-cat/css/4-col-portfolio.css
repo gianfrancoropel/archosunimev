@@ -1,0 +1,93 @@
+/*!
+ * Start Bootstrap - 4 Col Portfolio (https://startbootstrap.com/template-overviews/4-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+.nav{
+  border-radius: 10px;
+  background: #248dc1;
+}
+
+div #load_screen{
+  background: rgba(99,173,242,1);
+  background: -moz-linear-gradient(left, rgba(99,173,242,1) 0%, rgba(74,155,240,1) 54%, rgba(52,139,239,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(99,173,242,1) 0%, rgba(74,155,240,1) 54%, rgba(52,139,239,1) 100%);
+  background: -o-linear-gradient(left, rgba(99,173,242,1) 0%, rgba(74,155,240,1) 54%, rgba(52,139,239,1) 100%);
+  background: -ms-linear-gradient(left, rgba(99,173,242,1) 0%, rgba(74,155,240,1) 54%, rgba(52,139,239,1) 100%);
+  background: linear-gradient(to right, rgba(99,173,242,1) 0%, rgba(74,155,240,1) 54%, rgba(52,139,239,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63adf2', endColorstr='#348bef', GradientType=1 );
+  
+opacity: 1;
+position: fixed;
+  z-index:10;
+top: 0px;
+width: 100%;
+height: 1600px;
+}
+div#load_screen > div#loading{
+  text-align: center;
+  -webkit-box-shadow: -1px 7px 181px -5px rgba(0,0,0,0.95);
+  -moz-box-shadow: -1px 7px 181px -5px rgba(0,0,0,0.95);
+color:rgb(0, 0, 0);
+width:120px;
+height:24px;
+margin: 300px auto;
+}
+.se{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.se:hover{
+  color:gray;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.my-4{
+
+  text-align: center;
+  background: #74bcff;
+ border-radius: 20px 0px 20px 0px;
+ color: rgba(255, 254, 254, 0.733);
+
+}
+
+.img1{
+  display: block;
+  margin-left: 0%;
+  margin-right:0%;
+  width: 100%;
+}
+#textlink{
+color: white;
+}
+.imag{
+  background-image: "https://dl.dropboxusercontent.com/s/j79ox9ovxwxo1fx/none.jpg?dl=0";
+}
+
+#cssbots{
+  text-align: center;
+   background: #74bcff;
+   border-radius: 20px 0px 20px 0px;
+   color: rgba(255, 254, 254, 0.733)
+}
